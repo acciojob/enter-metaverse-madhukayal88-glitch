@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Metaverse Entry</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <p id="status">Enter the Metaverse</p>
+
+    <button id="enterBtn" onclick="enterMetaverse()">Enter</button>
+
+    <script>
+        function enterMetaverse() {
+            // 1. Target the element with id "status"
+            const statusElement = document.getElementById('status');
+            
+            // 2. Update the innerHTML to include the h1 tag and the new text
+            statusElement.innerHTML = "<h1>Entered Metaverse</h1>";
+        }
+    </script>
 
 </body>
-
 </html>
